@@ -1,0 +1,17 @@
+a = (int(input('Pick a Number')))
+b = (int(input('Pick a Number')))
+c = (str(input('Choose an Operation, a for +, s for -, m for x, d for /, e for exponent')))
+
+if c == 'a':
+    print(a + b)
+elif c == 's':
+    print(a - b)
+elif c == 'm':
+    print(a * b)
+elif c == 'd':
+    print(a / b)
+elif c == 'e':
+    print(a ** b)
+else:
+    print('ERROR')
+    
